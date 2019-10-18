@@ -1,0 +1,2 @@
+D:\TestProject\GenerateData_分批生成\GenerateData\template\sieCodeList.csv
+D:\TestProject\GenerateData_分批生成\GenerateData\template
