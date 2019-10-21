@@ -56,7 +56,7 @@ namespace GenerateData
                     startDate = startDate.AddSeconds(10);
                     DataRow newRow = dt.NewRow();
                     newRow["Col1"] = testPoint[j].Split(',')[0];
-                    newRow["Col2"] = startDate.ToString("MM/dd/yyyy HH:mm:ss");
+                    newRow["Col2"] = startDate.ToString("yyyy-MM-dd HH:mm:ss");
                     newRow["Col3"] = rm.Next(1, 100);
                     newRow["Col4"] = testPoint[j].Split(',')[1];
                     dt.Rows.Add(newRow);
